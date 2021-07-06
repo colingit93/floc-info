@@ -47,6 +47,32 @@ Eine besonders für Apple User interessante Alternative zu Google Chrome ist der
 Ein Browser welcher sich ganz und gar dem Schutz der Privatsphäre seiner Nutzer verschrieben hat trägt den Namen Brave. Dieser Browser hat beispielsweise den Zugang zum Tor Netzwerk direkt integriert und zahlreiche weitere Sicherheits-Features. Wie die anderen beiden Browser blockiert auch dieser standardmäßig alle Third-Party Tracking Cookies und verhindert dadurch das Erstellen von Nutzerbasierten Profilen.
  https://brave.com/features/ https://brave.com/privacy-features/
 
+## Datenschutz und Probleme von FLoC
+Als Google seinen Plan vorstellte, Cookies von Drittanbietern durch FLoC zu ersetzen, traten eine Reihe von Datenschutzbedenken auf. Wie schon erleutert, wurde die Entscheidung im Rahmen der „Privacy Sandbox“ Initiative bekannt gegeben. Diese plant die Einführung neuer Technologien als offene Standards, um die Privatsphäre der Endnutzer zu verbessern und eine der wichtigsten Einnahmequellen von Google, gezielte Werbung, zu schützen. Nach der Vorstellung der „Privacy Sandbox“ im August 2019 gab es immer mehr Bedenken, welche Auswirkungen die im Rahmen der Initiative vorgeschlagenen neuen Tools tatsächlich auf die Privatsphäre der Nutzer haben könnten. Insbesondere die [Electronic Frontier Foundation (EFF)](https://www.eff.org/) wies in einem Artikel namens ["Don't Play in Google's Privacy Sandbox"](https://www.eff.org/deeplinks/2019/08/dont-play-googles-privacy-sandbox-1) frühzeitig auf die Gefahren die sich hinter der Privacy Sandbox und FLoC befinden hin. Einige der Hauptprobleme, die insbesondere bei FLoC identifiziert wurden sind die Vereinfachung von Fingerprinting, cross-context exposure und der Umgang des zugrunde liegende Algorithmus mit sensiblen Kategorien.
+
+### Fingerprinting
+Fingerprinting beschreibt das Sammeln von Informationen des Browsers eines Nutzers, um diesen eindeutig identifizieren zu können. Ziel ist es, gewisse Muster zu finden, welche eine Instanz eines Browsers von Millionen von anderen unterscheidet. Es gibt viele verschieden Wege und Informationen, die für die Identifikation herangezogen werden können. Das Problem bei FLoC ist, dass ein Browser jetzt nur mehr eindeutig in einem bestimmten Cohort zu identifizieren sein muss. Das wird es für Webseiten deutlich vereinfachen, einen eindeutigen Fingerprint für FLoC Nutzer zu erstellen. Google hat dieses Problem bereits bestätigt und möchte eine Lösung dafür entwickeln. Ansätze dazu gibt es bereits, allerdings befinden sich diese noch in den Kinderschuhen.
+
+### Cross-Context Exposure
+Ein weiteres Problem wird durch die Möglichkeit der Cross-Context Exposure. Diese ist dadurch gegeben, dass Webseiten die Zugriff auf personenspezifische Daten haben ebenfalls die FLoC ID des User kennen. Somit könnte die Zuordnung von Browsern und FLoC IDs an die Öffentlichkeit kommen. So könnten einerseits Informationen über die Browsinghistorie von einzelnen Benutzern nachvollzogen werden und weitere Informationen über bestimmte Cohorts bestimmt werden.
+
+### Unbeaufsichtigter Algorithmus
+Ein Punkt der für weitere Beunruhigung sorgt, ist dass der Algorithmus der Nutzer einem FLoC Cohort zuweist, keiner Kontrollinstanz unterliegt. Grundsätzlich ist der dezentrale Ansatz ohne menschliche Einsicht eher positiv, was die Privatsphäre der Nutzer betrifft. Allerdings entsteht dadurch ein weiteres Problem, nämlich stellt sich die Frage, wie der Algorithmus mit sensitiven Kategorien umgeht. Es ist nicht auszuschließen, dass der Algorithmus Personen anhand von sensiblen Merkmalen wie Geschlecht, ethnische Zugehörigkeit, Alter und Einkommen gruppiert. Um das zu verhindern, plant Google zu analysieren, [wie FLoC-Gruppen mit sensiblen Kategorien korrelieren](https://github.com/WICG/floc#excluding-sensitive-categories). Dazu würden wiederum riesige Audits anhand von Daten zu Rasse, Geschlecht, Religion, Alter, Gesundheit und finanziellem Status der Benutzer und damit wieder ein großer Eingriff in private Personenbezogenen Daten vollzogen werden.
+
+https://www.eff.org/deeplinks/2021/03/googles-floc-terrible-idea
+
+https://blog.mozilla.org/en/privacy-security/privacy-analysis-of-floc/
+
+https://github.com/WICG/floc
+
+## Motivation
+Die offizielle Erklärung von Google zu ihrer „Privacy Sandbox“ Initiative ist wie folgt: 
+
+*"Die Privacy-Sandbox-Initiative zielt darauf ab, Web-Technologien zu schaffen, die sowohl die Privatsphäre der Menschen im Internet schützen als auch Unternehmen und Entwicklern die Werkzeuge geben, um erfolgreiche digitale Unternehmen aufzubauen, damit das Internet offen und für alle zugänglich bleibt."*
+
+Die allgemeine Auffassung ist jedoch, dass das Hauptziel darin besteht, ihre Rolle im Geschäft der gezielten Werbung zu schützen. Abgesehen von Datenschutzbedenken gibt es auch einige wettbewerbsrechtliche Bedenken bei Googles Umstellung auf FLoC. Gegenwärtig verwenden fast alle Nicht-Google-Publisher Drittanbieter-Cookies, um Nutzer zu tracken und gezielt Werbung zu schalten. Einige Unternehmen haben Bedenken geäußert, dass Google es für andere konkurrierende Online-Werbedienste schwieriger machen wird, im Ad-Tech-Sektor zu konkurrieren. Die EU hat eine [Antitrust-Untersuchung](https://ec.europa.eu/commission/presscorner/detail/en/ip_21_3143) zu diesem potenziell wettbewerbswidrigen Verhalten eingeleitet.
+
+https://arstechnica.com/tech-policy/2021/06/eu-antitrust-regulators-launch-probe-into-googles-floc-plan/
 
 
 
