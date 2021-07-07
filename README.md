@@ -76,7 +76,7 @@ Im Juni 2021 hat Google beschlossen das Endgültige aus der Drittanbieter-Cookie
 
 *"So bleibt genügend Zeit für die öffentliche Diskussion über die richtigen Lösungen, die fortgesetzte Auseinandersetzung mit den Regulierungsbehörden und für Verleger und Werbeindustrie, ihre Dienste zu migrieren. Dies ist wichtig, um die Geschäftsmodelle vieler Web-Publisher, die frei verfügbare Inhalte unterstützen, nicht zu gefährden. Durch die Bereitstellung datenschutzfreundlicher Technologien können wir als Branche dazu beitragen, dass Cookies nicht durch alternative Formen des individuellen Trackings ersetzt werden, und den Aufstieg verdeckter Ansätze wie Fingerprinting verhindern."* 
 
-Das Ergebnis der Antitrust-Untersuchung sowie die erschwernis von Fingerprinting dürften somit eine wesentliche Rolle für die Weiterentwicklung von FLoC sein.
+Das Ergebnis der Antitrust-Untersuchung sowie die Erschwernis von Fingerprinting dürften somit eine wesentliche Rolle für die Weiterentwicklung von FLoC sein.
 
 
 
