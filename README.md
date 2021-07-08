@@ -53,7 +53,7 @@ Ein weiteres Problem wird durch die Möglichkeit der Cross-Context Exposure. Die
 Ein Punkt der für weitere Beunruhigung sorgt, ist dass der Algorithmus der Nutzer einem FLoC Cohort zuweist, keiner Kontrollinstanz unterliegt. Grundsätzlich ist der dezentrale Ansatz ohne menschliche Einsicht eher positiv, was die Privatsphäre der Nutzer betrifft. Allerdings entsteht dadurch ein weiteres Problem, nämlich stellt sich die Frage, wie der Algorithmus mit sensitiven Kategorien umgeht. Es ist nicht auszuschließen, dass der Algorithmus Personen anhand von sensiblen Merkmalen wie Geschlecht, ethnische Zugehörigkeit, Alter und Einkommen gruppiert. Um das zu verhindern, plant Google zu analysieren, [wie FLoC-Gruppen mit sensiblen Kategorien korrelieren](https://github.com/WICG/floc#excluding-sensitive-categories). Dazu würden wiederum riesige Audits anhand von Daten zu Rasse, Geschlecht, Religion, Alter, Gesundheit und finanziellem Status der Benutzer und damit wieder ein großer Eingriff in private Personenbezogenen Daten vollzogen werden.
 
 ## Motivation und Reaktionen
-Die [offizielle Erklärung]() von Google zu ihrer „Privacy Sandbox“ Initiative ist wie folgt: 
+Die [offizielle Erklärung](https://privacysandbox.com/) von Google zu ihrer „Privacy Sandbox“ Initiative ist wie folgt: 
 
 *"Die Privacy-Sandbox-Initiative zielt darauf ab, Web-Technologien zu schaffen, die sowohl die Privatsphäre der Menschen im Internet schützen als auch Unternehmen und Entwicklern die Werkzeuge geben, um erfolgreiche digitale Unternehmen aufzubauen, damit das Internet offen und für alle zugänglich bleibt."*
 
@@ -77,4 +77,4 @@ Wenn Sie als Leser auf Datenschutz und Sicherheit sehr viel wert legen, würden 
 
 Authors: Tom K. - Colin J.
 Supervisor: Georg M.
-Version: v0.1
+Version: v0.99
